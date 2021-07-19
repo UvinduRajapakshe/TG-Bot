@@ -12,7 +12,7 @@ def send_welcome(message):
 
 @bot.message_handler(commands=["how"])
 def send_message(message):
-  bot.send_message(message, "https://youtube.com/c/Uvindubro")
+  bot.send_message(message.chat.id, "https://youtube.com/c/Uvindubro")
 
 
 
