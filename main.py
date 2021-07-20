@@ -2,7 +2,7 @@ import os
 import telebot
 
 
-bot = telebot.TeleBot("1939991142:AAE1ZTR50MCtmIi3wMt7kSCOyQSULmGXXPk")
+bot = telebot.TeleBot("API එක දාහන් උස්සන්නෙ නැතුව මගෙ ඒව")
 
 
 @bot.message_handler(commands=["start"])
